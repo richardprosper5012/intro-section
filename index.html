@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- link css -->
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+
+
+
+  <!-- Nav Bar Component -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><h1><b>Snap</b></h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-todo.svg" alt="">Todo List</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-calendar.svg" alt="">Calender</a></li>
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-reminders.svg" alt="">Reminder</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#"><img src="./images/icon-planning.svg" alt="">Planning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">History</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <!-- <button class="btn btn-outline-success" type="submit">Login</button> -->
+          <a class="btn " href="#">Login</a>
+          <button class="btn btn-outline-success" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+<main>
+    <!-- hero image -->
+    <div class="hero-img">
+      <div class="hero-mobile w-100">
+        <img class="w-100" src="./images/image-hero-mobile.png" alt="">
+      </div>
+      <div class="hero-desktop">
+        <img src="./images/image-hero-desktop.png" alt="">
+      </div>
+    </div>
+  
+    <!-- hero content -->
+    <div class="hero-content">
+      <h1><b>Make remote work</b></h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <div class="button-content">
+        <button class="text-center">Learn more</button>
+      </div>
+      <div class="icon-group-row row mx-auto">
+        <div class="col-3">
+          <img class="Logo-Icon img-fluid" src="./images/client-databiz.svg" alt=" Databliz">
+        </div>
+        <div class="col-3">
+          <img class="Logo-Icon img-fluid" src="./images/client-audiophile.svg" alt=" Databliz">
+        </div>
+        <div class="col-3">
+          <img class="Logo-Icon img-fluid" src="./images/client-meet.svg" alt=" Databliz">
+        </div>
+        <div class="col-3">
+          <img class="Logo-Icon img-fluid" src="./images/client-maker.svg" alt=" Databliz">
+        </div>
+        
+      </div>
+      </div>
+      
+    
+    
+    
+</main>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
